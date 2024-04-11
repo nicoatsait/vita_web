@@ -18,16 +18,16 @@ export default function ShowCase({
           src={imageSource}
           fill={true}
           alt={imageAlt}
-          sizes="(max-width: 1024px) 50vw, (max-width: 768px) 80vw, 1200px"
+          layout="fill"
         />
       </div>
 
       <div className="flex flex-col gap-5 items-center pb-10 px-6">
         <div className="flex flex-col items-center gap-2">
-          <p className="text-gray-50/90 font-semibold text-2xl text-center">
+          <p className="text-gray-50/90 font-semibold text-2xl md:text-2xl text-center">
             {showcaseTitle}
           </p>
-          <p className="text-gray-50/90 font-medium text-base text-center">
+          <p className="text-gray-50/90 font-medium text-sm md:text-base text-center">
             {showcaseDescription}
           </p>
         </div>
