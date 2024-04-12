@@ -57,25 +57,9 @@ export default function AboutMeSection() {
           </div>
           
           <div className="hidden lg:block">
-            <Image 
-                className="filter brightness-250 " 
-                src="/img/logo12.png" 
-                alt="logo" width={400} height={400} />
+            <Image src="/img/logo12.png" alt="logo" width={400} height={400} className="filter brightness-250 "/>
           </div>
         </div>
-        <style jsx>{`
-            .image-container {
-                width: 400px;
-                height: 400px;
-            }
-            @media (max-width: 768px) {
-                .image-container {
-                    width: 100px;
-                    height: 100px;
-                }
-                `}
-        </style>
-
       </section>
     );
   }
