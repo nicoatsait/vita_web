@@ -21,6 +21,7 @@ export default function LargeShowcaseSection() {
 
   return (
     <section className="w-full max-w-screen-md mx-auto">
+      <h1 className="text-3xl font-semibold text-gray-50 w-full">The App</h1>
       <ShowcaseContainer>
         {images.map((image, index) => (
           <ShowCase 

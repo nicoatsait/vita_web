@@ -133,51 +133,64 @@ export default function NavBar() {
           </div>
           <AnimatePresence>
             {isHamburgerOpen && (
-              <motion.div
-                className=" relative inset-y-16 w-full h-fit bg-zinc-950 -z-10"
-                animate={{ y: 0, opacity: 1 }}
-                initial={{ y: -128, opacity: 1 }}
-                transition={{ duration: 0.25, ease: "easeInOut" }}
-                exit={{ y: -128, opacity: 0 }}
-              >
-                <div className=" flex flex-col items-center justify-center bg-zinc-900/45 divide-y shadow-md divide-zinc-700 border-y border-zinc-700 h-fit w-full">
-                  <motion.button
-                    initial={{ opacity: 0, x: -128 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.2, ease: "easeInOut" }}
-                    className="font-medium text-lg text-gray-50 w-full h-full py-3"
-                    onClick={handleScrollToTop}
-                  >
-                    Home
-                  </motion.button>
-                  <motion.button
-                    initial={{ opacity: 0, x: -128 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{
-                      duration: 0.2,
-                      ease: "easeInOut",
-                      delay: 0.05,
-                    }}
-                    className="font-medium text-lg text-gray-50 w-full h-full py-3"
-                    onClick={handleScrollToDownload}
-                  >
-                    Download
-                  </motion.button>
-                  <motion.button
-                    initial={{ opacity: 0, x: -128 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{
-                      duration: 0.2,
-                      ease: "easeInOut",
-                      delay: 0.1,
-                    }}
-                    className="font-medium text-lg text-gray-50 w-full h-full py-3"
-                    onClick={handleScrollToAboutUs}
-                  >
-                    About us
-                  </motion.button>
-                </div>
-              </motion.div>
+                <motion.div
+                  className=" relative inset-y-16 w-full h-fit bg-zinc-950 -z-10"
+                  animate={{ y: 0, opacity: 1 }}
+                  initial={{ y: -128, opacity: 1 }}
+                  transition={{ duration: 0.25, ease: "easeInOut" }}
+                  exit={{ y: -128, opacity: 0 }}
+                >
+                  <div className=" flex flex-col items-center justify-center bg-zinc-900/45 divide-y shadow-md divide-zinc-700 border-y border-zinc-700 h-fit w-full">
+                    <motion.button
+                      initial={{ opacity: 0, x: -128 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 0.2, ease: "easeInOut" }}
+                      className="font-medium text-lg text-gray-50 w-full h-full py-3"
+                      onClick={handleScrollToTop}
+                    >
+                      Home
+                    </motion.button>
+                    <motion.button
+                      initial={{ opacity: 0, x: -128 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{
+                        duration: 0.2,
+                        ease: "easeInOut",
+                        delay: 0.05,
+                      }}
+                      className="font-medium text-lg text-gray-50 w-full h-full py-3"
+                      onClick={handleScrollToDownload}
+                    >
+                      Download
+                    </motion.button>
+                    <motion.button
+                      initial={{ opacity: 0, x: -128 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{
+                        duration: 0.2,
+                        ease: "easeInOut",
+                        delay: 0.1,
+                      }}
+                      className="font-medium text-lg text-gray-50 w-full h-full py-3"
+                      onClick={handleScrollToLargeShowcase}
+                    >
+                      App
+                    </motion.button>
+                    <motion.button
+                      initial={{ opacity: 0, x: -128 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{
+                        duration: 0.2,
+                        ease: "easeInOut",
+                        delay: 0.15,
+                      }}
+                      className="font-medium text-lg text-gray-50 w-full h-full py-3"
+                      onClick={handleScrollToAboutUs}
+                    >
+                      About us
+                    </motion.button>
+                  </div>
+                </motion.div>
             )}
           </AnimatePresence>
         </div>
