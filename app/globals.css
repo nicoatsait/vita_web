@@ -17,6 +17,7 @@
 }
 
 body {
+  overflow-x: hidden;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,6 +25,17 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.slick-next:before, .slick-prev:before {
+  display: none !important;
+}
+
+.slick-slide img {
+  transform: scale(0.75); /* Adjust this value as needed */
+}
+.slick-slide .text-container {
+  margin-top: -100px; /* Adjust this value as needed */
 }
 
 @layer utilities {
