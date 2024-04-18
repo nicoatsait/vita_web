@@ -22,10 +22,10 @@ export default function LandingSection() {
         </h1>
         <div className="flex flex-col justify-center items-center gap-1">
           <h1 className="font-bold text-3xl text-gray-50 text-center">
-            A comprehensive tool for caregivers to monitor their<br /> patients or children's health.
+            A comprehensive tool for caregivers to monitor their<br /> patients or children&apos;s health.
           </h1>
           <p className="font-medium text-xl text-gray-400 text-center">
-            Download now and start monitoring your loved ones' health.
+            Download now and start monitoring your loved ones&apos; health.
           </p>
         </div>
       </motion.div>
