@@ -22,7 +22,7 @@ export default function LargeShowcaseSection() {
       scr: Add,
       alt: "add",
       title: "Easily add Medication intake",
-      description: ""
+      description: "just a few clicks"
     }
   ];
 
