@@ -3,13 +3,13 @@ import ShowcaseContainer from "../components/showcase/LargeShowcaseContainer.js"
 import Calendar from "@/public/img/Calendar.png";
 import Home from "@/public/img/Home.png";
 import Add from "@/public/img/Add.png"
-import Register from "@/public/img/Register.png"
-import Main from "@/public/img/Main.png"
+import Register from "@/public/img/RegisterVita.png"
+import MainPage from "@/public/img/MainPage.png"
 
 export default function LargeShowcaseSection() {
   const images = [
     {
-      scr: Main,
+      scr: MainPage,
       alt:"when you open the app"
     },
     {
