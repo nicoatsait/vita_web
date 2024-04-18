@@ -14,7 +14,6 @@ export default function AboutMeSection() {
       "Jean-Pierre Nde-Forgwang",
       "Valentine Jingwa",
       "Nicholas Gonzalez",
-      "Elvis Chizoba",
     
     ];
   
