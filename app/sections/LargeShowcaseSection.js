@@ -1,7 +1,8 @@
 import ShowCase from "../components/showcase/LargeShowcase.js";
 import ShowcaseContainer from "../components/showcase/LargeShowcaseContainer.js";
 import Calendar from "@/public/img/Calendar.png";
-import Home from "@/public/img/Home.JPG";
+import Home from "@/public/img/Home.png";
+import Add from "@/public/img/Add.png"
 
 export default function LargeShowcaseSection() {
   const images = [
@@ -9,13 +10,19 @@ export default function LargeShowcaseSection() {
       src: Calendar,
       alt: "EasyTracking",
       title: "Easy Tracking",
-      description: "to be added"
+      description: "Tracking your Meds has never been easier"
     },
     {
       src: Home,
-      alt: "to be added",
-      title: "to be added",
-      description: "to be added"
+      alt: "Home",
+      title: "Place remainders easily",
+      description: "place reminders easily "
+    },
+    {
+      scr: Add,
+      alt: "add",
+      title: "Easily add Medication intake",
+      description: ""
     }
   ];
 
