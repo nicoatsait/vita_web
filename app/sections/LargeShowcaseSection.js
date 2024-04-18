@@ -1,6 +1,6 @@
 import ShowCase from "../components/showcase/LargeShowcase.js";
 import ShowcaseContainer from "../components/showcase/LargeShowcaseContainer.js";
-import Calendar from "@/public/img/Calendar.JPG";
+import Calendar from "@/public/img/Calendar.png";
 import Home from "@/public/img/Home.JPG";
 
 export default function LargeShowcaseSection() {
